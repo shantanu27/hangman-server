@@ -1,5 +1,6 @@
 package com.gallow.hangman.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -7,12 +8,14 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
-public class State {
-
+@NoArgsConstructor
+public class ResponseState {
     private String status;
     private String token;
-    private int remainingGuesses;
+
+    @JsonProperty("remaining_guesses")
+    private Integer remainingGuesses;
+
     private String state;
 }

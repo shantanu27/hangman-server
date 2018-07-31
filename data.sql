@@ -1,0 +1,12 @@
+INSERT INTO phrases (phrase) VALUES ("DOWN TO EARTH");
+INSERT INTO phrases (phrase) VALUES ("IN A PICKLE");
+INSERT INTO phrases (phrase) VALUES ("KEEP YOUR SHIRT ON");
+INSERT INTO phrases (phrase) VALUES ("GO FOR BROKE");
+INSERT INTO phrases (phrase) VALUES ("BEATING AROUND THE BUSH");
+INSERT INTO phrases (phrase) VALUES ("RIDE HIM, COWBOY!");
+INSERT INTO phrases (phrase) VALUES ("BIRDS OF A FEATHER FLOCK TOGETHER");
+INSERT INTO phrases (phrase) VALUES ("JAWS OF DEATH");
+INSERT INTO phrases (phrase) VALUES ("KNUCKLE DOWN");
+
+
+
